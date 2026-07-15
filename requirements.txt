@@ -1,4 +1,4 @@
-# Requirements for DFB_OCR.py, DFB_Compare.py, DFB_Visualise.py
+# Requirements for OCR_Example.py
 # Install: pip install -r scripts/requirements.txt
 
 # ── DFB_OCR.py ──────────────────────────────────────────────────────────────
