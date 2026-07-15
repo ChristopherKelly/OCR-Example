@@ -1,0 +1,23 @@
+# Requirements for DFB_OCR.py, DFB_Compare.py, DFB_Visualise.py
+# Install: pip install -r scripts/requirements.txt
+
+# ── DFB_OCR.py ──────────────────────────────────────────────────────────────
+requests
+python-dotenv
+pypdf                      # optional: PDF text extraction (fallback path)
+python-docx                # optional: DOCX input support; also used by DFB_Visualise.py
+httpx                      # optional: SSL patch for TLS-intercepting proxy
+
+# Vertex AI / Google GenAI
+google-genai               # google.genai client + google.api_core
+google-auth                # google.oauth2.service_account credentials
+
+# Vertex AI Batch Prediction (--batch-vertex flag only)
+google-cloud-storage
+
+# ── DFB_Compare.py ───────────────────────────────────────────────────────────
+openpyxl                   # optional: conflicts Excel output
+
+# ── DFB_Visualise.py ─────────────────────────────────────────────────────────
+matplotlib
+numpy
