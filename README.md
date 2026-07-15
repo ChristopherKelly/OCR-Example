@@ -1,4 +1,4 @@
-# DFB OCR Tool
+# OCR Example
 
 Standalone document OCR / data-extraction code. Reads a PDF or DOCX, sends it to
 a Gemini model on Vertex AI with a configurable system prompt, and writes the
